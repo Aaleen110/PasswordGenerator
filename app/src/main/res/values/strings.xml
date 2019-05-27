@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Password Generator</string>
+    <string name = "uppercase">Uppercase</string>
+    <string name = "lowercase">Lowercase</string>
+    <string name="numbers">Numbers</string>
+    <string name="spaces">Spaces</string>
+    <string name="special_symbols">Special Symbol</string>
+    <string name="password_length">Password Length</string>
+    <string name="register_text">
+        <i><u>Register</u></i>
+    </string>
+
+</resources>

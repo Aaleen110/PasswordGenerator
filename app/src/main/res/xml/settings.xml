@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Settings">
+
+        <CheckBoxPreference
+            android:key="checkbox_uppercase"
+            android:title="Uppercase"
+            android:defaultValue="true"
+            android:summary="Include password with Uppercase" />
+
+        <CheckBoxPreference
+            android:key="checkbox_lowercase"
+            android:title="Lowercase"
+            android:defaultValue="true"
+            android:summary="Include password with Lowercase" />
+
+        <CheckBoxPreference
+            android:key="checkbox_numbers"
+            android:title="Numbers"
+            android:defaultValue="true"
+            android:summary="Include password with numbers" />
+
+        <CheckBoxPreference
+            android:key="checkbox_spaces"
+            android:title="Spaces"
+            android:defaultValue="true"
+            android:summary="Include spaces in password" />
+
+        <CheckBoxPreference
+            android:key="checkbox_special"
+            android:title="Special Symbols"
+            android:defaultValue="true"
+            android:summary="Include special symbols in password" />
+
+
+        <EditTextPreference
+            android:key="edittext_prefix"
+            android:title="Prefix"
+            android:summary="Specify a prefix added before password"
+            android:maxLength="5"
+            android:dialogTitle="Enter a prefix" />
+
+        <EditTextPreference
+            android:key="edittext_passwordlength"
+            android:title="Password Length"
+            android:summary="specify length of password"
+            android:maxLength="2"
+            android:inputType="number"
+            android:dialogTitle="Password Length" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
