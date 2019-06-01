@@ -21,6 +21,7 @@ The main screen comprises of main objective i.e. password is generated. Random p
 **Share** : You can share your generated password across multiple medias (Yet to be completed )
 
 This screen also consists of Option menu, which has three options, 
+
 **Saved Passwords**: This is the activity where user can have access to all the saved password. This is the pattern lock protected activity.
 
 **Settings**: From Settings the user can customize the generated password according to his/ her needs.
